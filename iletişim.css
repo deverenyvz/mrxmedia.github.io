@@ -1,0 +1,347 @@
+.navigation_bar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(53, 44, 44);
+  position:sticky;/*eğer sorun olursa fixed olarak değiştirin*/
+  top:0px;
+  width: 100%;
+}.navigation_bar li {
+  float: right;
+  border-right:1px solid #bbb;
+}
+.navigation_bar1 ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(53, 44, 44);
+  position:sticky;/*eğer sorun olursa fixed olarak değiştirin*/
+  top:0px;
+  width: 100%;
+}.navigation_bar1 li {
+  float: left;
+  border-right:1px solid #bbb;
+}
+.navigation_bar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}.navigation_bar li:last-child {
+  border-right: none;
+}
+
+.navigation_bar1 li a:hover:not(.active) {
+  background-color: #111;
+}
+.navigation_bar1 .active {
+  background-color: #111 /*#4CAF50*/
+}
+.navigation_bar1 li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}.navigation_bar li:last-child {
+  border-right: none;
+}
+
+.navigation_bar1 li a:hover:not(.active) {
+  background-color: #111;
+}
+.navigation_bar1 .active {
+  background-color: #111 /*#4CAF50*/
+}
+body.dark{
+background-color: #111;
+color: #fff;
+}
+#footer {
+position: fixed;
+padding: 10px 10px 0px 10px;
+bottom: 0;
+width: 100%;
+/* Height of the footer*/
+height: 15px;
+background: #111;
+}
+/* sosyal medya buton kodları*/
+.fab {
+padding: 8px;
+font-size: 30px;
+width: 32px;
+text-align: center;
+text-decoration: none;
+margin: 5px 2px;
+}
+.fa-twitter {
+background: #55ACEE;
+color: white;
+}
+.fa-youtube {
+background: #bb0000;
+color: white;
+}
+.fa-instagram {
+background: #125688;
+color: white;
+}
+.icon-radius {
+-moz-border-radius: 50%;
+-webkit-border-radius: 50%;
+border-radius: 50%;
+}
+/* sosyal medya butonu bitişi kodları*/
+body{
+background: #131313;
+color: #525252;
+font-family: verdana,Arial,Helvetica,sans-serif;
+margin: 0;
+padding: 0;
+font-size: 12px;
+}
+.sayfa{
+width: 960px;
+margin: auto;
+}
+.ust{
+background: #232323;
+}
+#logo{
+float: left;
+width: 260px;
+margin-top: 7px;
+margin-left: 10px;
+}
+
+#logo h1{
+margin: 0;
+padding: 0;
+font-size: 42px;
+text-transform: uppercase;
+
+}
+
+#logo h1 a{
+font-family: Georgia;
+text-decoration: none;
+color: #DBDBDB;
+letter-spacing: 3px;
+}
+
+#logo p{
+color: #DBDBDB;
+font-family: Georgia;
+margin-left: 3px;
+margin-top: 0;
+padding-top: 0;
+letter-spacing: 2px;
+}
+
+#menu{
+float: right;
+width: 650px;
+margin: 30px 0 0 0;
+padding: 0;
+font-size: 13px;
+text-align: right;
+}
+
+#menu ul{
+margin: 0;
+padding: 0;
+list-style: none;
+}
+
+#menu ul li{
+display: inline;
+margin-right: 35px;
+}
+
+#menu ul li a{
+text-decoration: none;
+font-size: 13px;
+font-family: Verdana;
+color: #DBDBDB;
+}
+
+.orta{
+
+margin-top: 20px;
+}
+.orta-card{
+width: 160px;
+float: center;
+height: 50px;
+padding: 10px;
+}
+.orta-sol{
+width: 160px;
+float: left;
+height: 50px;
+padding: 10px;
+}
+.orta-sag{
+width: 160px;
+float: right;
+height: 50px;
+padding: 10px;
+}
+
+.orta-sag img{
+box-shadow: 10px 10px 10px gray;
+}
+
+.orta-resim{
+margin: 0 25px;
+
+}
+.card
+{
+width: 200px;
+float: left;
+}
+.orta-card{
+width: 160px;
+float: center;
+height: 50px;
+padding: 10px;
+}
+
+.card{
+margin-right: 30px;
+}
+
+.card:nth-child(3){
+margin:0px;
+}
+
+.card h1{
+border-bottom: 1px dotted white;
+padding-bottom: 15px;
+
+}
+
+.button a{
+display: inline-block;
+padding: 10px 15px;
+color: #fdc609;
+background-color: #232323;
+text-decoration: none;
+
+}
+
+.clear{
+clear: both;
+}
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic);
+ 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+ 
+body {
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+    font-weight: 100;
+    font-size: 13px;
+    line-height: 30px;
+    color: #888;
+    background: #010101;
+}
+ 
+.container {
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+ 
+#contact input[type="text"],
+#contact input[type="email"],
+#contact textarea,
+#contact button[type="submit"] {
+    font: 500 12px/16px "Roboto", Helvetica, Arial, sans-serif;
+}
+ 
+#contact {
+    background: #F9F9F9;
+    padding: 25px;
+    margin: 100px 0;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+ 
+#contact h2 {
+    display: block;
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+ 
+.form-control{
+    border: none !important;
+    margin: 0 0 10px;
+    min-width: 100%;
+    padding: 0;
+    width: 100%;
+}
+ 
+#contact input[type="text"],
+#contact input[type="email"],
+#contact textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    background: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+}
+ 
+#contact input[type="text"]:hover,
+#contact input[type="email"]:hover,
+#contact textarea:hover {
+    -webkit-transition: border-color 0.4s ease-in-out;
+    -moz-transition: border-color 0.4s ease-in-out;
+    transition: border-color 0.4s ease-in-out;
+    border: 1px solid #aaa;
+}
+ 
+#contact textarea {
+    height: 120px;
+    max-width: 100%;
+    resize: none;
+}
+ 
+#contact button[type="submit"] {
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    background: #030303;
+    color: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+    font-size: 15px;
+}
+ 
+#contact button[type="submit"]:hover {
+    background: #355C7D;
+    -webkit-transition: background 0.4s ease-in-out;
+    -moz-transition: background 0.4s ease-in-out;
+    transition: background-color 0.4s ease-in-out;
+}
+ 
+#contact button[type="submit"]:active {
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+ 
+#contact input:focus,
+#contact textarea:focus {
+    outline: 0;
+    border: 1px solid #aaa;
+}
